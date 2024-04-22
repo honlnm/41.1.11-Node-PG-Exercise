@@ -75,7 +75,7 @@ Needs to be passed in a JSON body of `{amt}` Returns: `{invoice: {id, comp_c
 
 **GET /companies/[code] :** Return obj of company: `{company: {code, name, description, invoices: [id, ...]}}` If the company given cannot be found, this should return a 404 status response.
 
-## **Further Study**
+## **Further Study** OPTIONAL
 
 ### **Write some tests!**
 
